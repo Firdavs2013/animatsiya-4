@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left: 300px;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:400px; top:0px;}
+    25%  {background-color:yellow; left:1300px; top:0px;}
+    50%  {background-color:blue; left:1300px; top:600px;}
+    75%  {background-color:green; left:400px; top:600px;}
+    100% {background-color:red; left:400px; top:0px;}
+  }
+  .box2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left: 1300px;
+    top: 450px;
+  }
+  @keyframes example2 {
+    0%   {background-color:red; left:1300px; top:450px;}
+    25%  {background-color:yellow; left:400px; top:450px;}
+    50%  {background-color:blue; left:400px; top:-150px;}
+    75%  {background-color:green; left:1300px; top:-150px;}
+    100% {background-color:red; left:1300px; top:450px;}
+  }
+  .box3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left: 1300px;
+    top: -300px;
+  }
+  @keyframes example3 {
+    0%   {background-color:red; left:1300px; top:-300px;}
+    25%  {background-color:yellow; left:1300px; top:300px;}
+    50%  {background-color:blue; left:400px; top:300px;}
+    75%  {background-color:green; left:400px; top:-300px;}
+    100% {background-color:red; left:1300px; top:-300px;}
+  }
+  .box4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    animation-name: example4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left: 400px;
+    top: 150px;
+  }
+  @keyframes example4 {
+    0%   {background-color:red; left:400px; top:150px;}
+    25%  {background-color:yellow; left:400px; top:-450px;}
+    50%  {background-color:blue; left:1300px; top:-450px;}
+    75%  {background-color:green; left:1300px; top:150px;}
+    100% {background-color:red; left:400px; top:150px;}
+  }
+  h1{
+    font-size: 50px;
+    color: aqua;
+    animation-name: h;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  @keyframes h{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+.h1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 800px;
+}
